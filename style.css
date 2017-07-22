@@ -1,0 +1,115 @@
+/*!
+Theme Name: Pure Hackery
+Theme URI: http://underscores.me/
+Author: Automattic
+Author URI: http://automattic.com/
+Description: Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: _s
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+_s is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+  ## Links
+  ## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+  ## Posts and pages
+  ## Comments
+# Infinite scroll
+# Media
+  ## Captions
+  ## Galleries
+--------------------------------------------------------------*/
+/*Libs*/
+/*
+@import "../vendor/typeplate/_typeplate-index";
+@import "../vendor/bourbon/bourbon";
+@import "../vendor/neat/neat";
+*/
+@import url("https://fonts.googleapis.com/css?family=Alegreya|Bitter|Cutive|Dosis|Eczar|IM+Fell+English|Lora|Open+Sans|Quando|Quattrocento|Ubuntu");
+/*The main div  wrapping the entire page*/
+body {
+  font-family: 'Alegreya', serif; }
+
+.navbar {
+  font-family: 'Eczar', serif;
+  font-size: 1.06em; }
+
+.navbar-brand {
+  font-family: 'IM Fell English', serif;
+  font-size: 1.06em; }
+
+.post-index-page {
+  font-family: 'IM Fell English', serif; }
+
+#primary {
+  font-size: 1.4em; }
+
+#primary-navbar {
+  font-size: 1.2em; }
+
+.post-title-area {
+  font-family: 'IM Fell English', serif; }
+
+.post-info-area {
+  font-family: 'IM Fell English', serif; }
+
+.comments-area {
+  font-family: 'IM Fell English', serif; }
+
+.the-content {
+  font-family: 'IM Fell English', serif; }
+
+.post-info-area {
+  margin-top: 1em; }
+
+.the-content {
+  /* need important to override bootstrap's important*/
+  padding-left: 0em !important; }
+
+body {
+  margin-bottom: 50px;
+  /* to compensate for the footer*/
+  margin-top: 80px; }
+
+/* Note: The footer is also styled by bootstrap!  */
+.site-footer {
+  width: 100%;
+  height: 40px;
+  background-color: #f5f5f5; }
+
+#header-nav-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999; }
+
+.comment-form-email, .comment-form-url {
+  display: none; }
+
+.wp-post-image {
+  border: solid 0px black; }
+
+/*# sourceMappingURL=style.css.map */
