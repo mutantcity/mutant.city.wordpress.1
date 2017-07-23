@@ -30,14 +30,14 @@
         </li>
 
         <li>
-          <a href="<?php echo get_post_type_archive_link( 'p_hackery_snippets' ); ?>"
+          <a href="<?php echo get_post_type_archive_link( 'p_hackery_snippets' ); ?>">
             <span class="glyphicon glyphicon-flash"></span>
             <span>Snips</span>
           </a>
         </li>
 
         <li>
-          <a href="/aboot">
+          <a href="<?php echo get_page_link( get_page_by_title( 'aboot' )->ID ); ?>">
             <span class="glyphicon glyphicon-user"></span>
             <span>Aboot</span>
           </a>

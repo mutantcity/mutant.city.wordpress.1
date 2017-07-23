@@ -1,0 +1,6 @@
+projectKey=my:pure_hackery_wp_theme
+serverUrl=http://localhost:9000
+serverVersion=6.4.0.25310
+dashboardUrl=http://localhost:9000/dashboard/index/my:pure_hackery_wp_theme
+ceTaskId=AV1xsxtXd_7nqnf7cuSh
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AV1xsxtXd_7nqnf7cuSh

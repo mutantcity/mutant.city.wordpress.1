@@ -12,24 +12,18 @@
 
 
 <body <?php body_class(); //required for wordpress plumbing?>>
-
-
-<noscript>
+  <noscript>
     <style type="text/css">
-        #main {display:none;}
+      #main {display:none;}
     </style>
     <div class="noscriptmsg">
-    You don't have javascript enabled. You should probably enable it.
+      You don't have javascript enabled. You should probably enable it
     </div>
     <img src="assets/img/samuel_catson.jpg"/>
-</noscript>
-
-
-
-<header id="masthead" class="site-header" role="banner">
-  <?php get_template_part( 'partials/navbar', 'none' ); ?>
-</header><!-- #masthead -->
-
-
+  </noscript>
+  <header id="masthead" class="site-header" role="banner">
+    <?php get_template_part( 'partials/navbar', 'none' ); ?>
+  </header><!-- #masthead -->
   <div id="primary" class="content-area">
+
     <main id="main" class="site-main" role="main">

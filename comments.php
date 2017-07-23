@@ -14,27 +14,15 @@
  * entered the password we will return early without loading the comments.
  */
 if ( post_password_required() )
-    return;
+  return;
 ?>
-
 <div id="comments" class="comments-area">
-
-    <?php if ( have_comments() ) : ?>
-
-        <div class="comment-list">
-            <?php
-                // wp_list_comments( array(
-                //     'style'       => 'ol',
-                //     'short_ping'  => true,
-                //     'avatar_size' => 74,
-                // ) );
-            ?>
-						<?php wp_list_comments( 'type=comment&callback=mytheme_comment_2' ); ?>
-        </div><!-- .comment-list -->
-
-    <?php endif; // have_comments() ?>
-
-    <hr style="border-top: 5px solid #e7e7e7">
-    <?php custom_comment_form(); ?>
-
+  <?php if ( have_comments() ) : ?>
+    <div class="comment-list">
+      <?php wp_list_comments( 'type=comment&callback=mytheme_comment_2' ); ?>
+    </div><!-- .comment-list -->
+  <?php endif; // have_comments() ?>
+  <hr/>
+  <hr style="border-top: 0px solid #e7e7e7">
+  <?php custom_comment_form(); ?>
 </div><!-- #comments -->
