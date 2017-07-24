@@ -44,14 +44,14 @@
         </li>
 
         <li>
-          <a href="/portfolio">
+          <a href="<?php echo get_page_link( get_page_by_title( 'portfolio' )->ID ); ?>">
               <span class="glyphicon glyphicon-fire"></span>
             <span>Portfolio</span>
           </a>
         </li>
 
         <li>
-          <a href="/favs">
+          <a href="<?php echo get_page_link( get_page_by_title( 'favorites' )->ID ); ?>">
             <span class="glyphicon glyphicon-star"></span>
             <span>Favs</span>
           </a>
