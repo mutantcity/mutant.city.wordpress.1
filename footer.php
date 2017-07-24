@@ -31,6 +31,10 @@
     </a>
     <span class="sep"> | </span>
     <?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'pure hackery' ), 'Pure Hackery', '<a href="http://github.com/nkiermaier" rel="designer">Nick Kiermaier</a>' ); ?>
+     <span class="sep"> | </span>
+     <span>
+      <a href="/admin">Login</a>
+    </span>
   </div><!-- .site-info -->
 </footer><!-- #colophon -->
 </body>
