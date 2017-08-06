@@ -12,7 +12,7 @@
   <?php if ( have_posts() ) : ?>
     <?php while ( have_posts() ) : the_post(); ?>
       <article class="post post-index-page row" style="padding: 2.5% 0 2.5% 0";>
-        <div class="col-md-2">
+        <div class="col-md-2 tape">
           <?php the_post_thumbnail('full', array( 'class' => 'img-responsive img-rounded' )); ?>
         </div>
         <div class="col-md-10">
